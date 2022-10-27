@@ -12,18 +12,18 @@ function Header() {
 
 				<ul className=" hidden lg:flex lg:w-[55%] justify-center gap-4 text-accent">
 					<li className="text-base font-medium cursor-pointer hover:opacity-80 duration-150">
-						about
+						my work
 					</li>
 					<li className="text-base font-medium cursor-pointer hover:opacity-80 duration-150">
-						my work
+						services
 					</li>
 					<li className="text-base font-medium cursor-pointer hover:opacity-80 duration-150">
 						contact me
 					</li>
 				</ul>
 				<div className="w-[20%]">
-					<button className=" text-base hidden lg:flex items-center justify-center bg-secondary min-w-[180px] py-[5px] font-medium text-white rounded hover:bg-accent duration-200">
-						Lets Talk
+					<button className=" text-base hidden lg:flex items-center justify-center bg-secondary min-w-[180px] py-[5px] font-normal text-white rounded hover:bg-accent duration-200">
+						lets alk
 						<svg
 							width="30"
 							height="30"

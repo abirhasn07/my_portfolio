@@ -12,3 +12,8 @@ body{
     font-size: 62.6%;
     font-family: 'Poppins', sans-serif;
 }
+
+.text__stroke {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #22272E;
+}

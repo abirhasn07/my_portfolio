@@ -1,7 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import MarqueeComponent from '../components/Marquee'
+import Marquee from '../components/Marquee'
+import Service from '../components/Service'
+import Skills from '../components/Skills'
 
 
 export default function Home() {
@@ -13,6 +17,9 @@ export default function Home() {
       <div className='bg-primary'>
         <Header />
         <Hero />
+        <Skills />
+        <MarqueeComponent />
+        <Service />
       </div>
     </>
   )
